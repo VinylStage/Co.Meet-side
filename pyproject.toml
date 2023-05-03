@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "comeet-side"
+version = "0.1.0"
+description = ""
+authors = ["VinylStage <mcpe9869@gmail.com>"]
+readme = "README.md"
+packages = [{include = "comeet_side"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+djangorestframework-simplejwt = "^5.2.2"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^3.14.0"
+pillow = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
